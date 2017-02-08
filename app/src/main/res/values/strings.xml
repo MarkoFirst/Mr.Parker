@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CarParker</string>
+    <string name="chooseCityButton">Выбрать</string>
+    <string name="introText">Выберите ваш город из списка</string>
+    <string-array name="citiesNames">
+        <item>Одесса</item>
+        <item>Киев</item>
+        <item>Харьков</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
 </resources>
