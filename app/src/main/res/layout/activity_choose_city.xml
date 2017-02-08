@@ -10,8 +10,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ua.carparker.ChooseCityActivity">
 
-    <TextView
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cities_list"
+        android:layout_marginTop="26dp"
+        android:entries="@array/citiesNames"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/intro_text_id"
+        android:layout_alignRight="@+id/choose_city_button"
+        android:layout_alignEnd="@+id/choose_city_button"
+        android:layout_alignLeft="@+id/choose_city_button"
+        android:layout_alignStart="@+id/choose_city_button" />
+
+    <Button
+        android:text="@string/chooseCityButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_marginTop="20dp"
+        android:id="@+id/choose_city_button"
+        android:layout_below="@+id/cities_list"
+        android:layout_centerHorizontal="true"
+        android:onClick="chooseOnClick" />
+
+    <TextView
+        android:text="@string/introText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/intro_text_id"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
