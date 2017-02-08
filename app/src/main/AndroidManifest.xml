@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ua.carparker">
+    package="com.ua.mr_parker">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -24,7 +24,7 @@
         android:name="android.support.multidex.MultiDexApplication"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ChooseCityActivity">
+        <activity android:name="com.ua.mr_parker.ChooseCityActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -44,7 +44,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="com.ua.mr_parker.MapsActivity"
             android:label="@string/title_activity_maps">
         </activity>
     </application>
