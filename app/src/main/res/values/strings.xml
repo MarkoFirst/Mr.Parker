@@ -8,4 +8,5 @@
         <item>Харьков</item>
     </string-array>
     <string name="title_activity_maps">Map</string>
+    <string name="find_button">Найти</string>
 </resources>
