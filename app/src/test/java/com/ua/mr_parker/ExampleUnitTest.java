@@ -1,4 +1,4 @@
-package com.ua.carparker;
+package com.ua.mr_parker;
 
 import org.junit.Test;
 

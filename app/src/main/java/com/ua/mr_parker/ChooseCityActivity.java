@@ -1,4 +1,4 @@
-package com.ua.carparker;
+package com.ua.mr_parker;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
